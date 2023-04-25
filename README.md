@@ -1,2 +1,13 @@
-# dictionary_react_app
-A dictionary app that uses Merriam Webster's API to display results and a word game
+# Tammie Helmick - Dictionary App (Portfolio)
+
+Summary: My dictionary app makes use of the dictionaryapi.com API request to information and display it in the app. Users can search for any word in the collegiate dictionary. The app provides a random word on each load of the app. Additionally, the app contains a game that allows users to test their knowlege by providing 4 random words and a definition that matches one of the words. A score is provided after 5 matches are attempted.
+
+## Features
+
+**Screen 1:** Main screen, includes a search component and a random word with definition component. The search accepts a word (input) and passes it to Screen 2 as a global state. The random word function is called with useEffect. It selects a word randomly from an array of words included with the app. It submits an API request to dictionaryapi.com which returns an array of information about the word. I'm capturing the pieces I want from the array and displaying them as you would expect to see a definition along with the function of the word. There is also a button that takes users to the Matching Game Screen (Screen 3) 
+
+**Screen 2:** Search screen, accepts a word submitted by the user. Using a function the word is checked. If the word matches something in the dictionary, the definition is displayed along with the function of the word. If the word is close to some words in the dictionary, a list of suggestions is provided. If the user clicks the button, that word is searched and the definition is displayed. If the word isn't close to anything in the dictionary, a message is displayed indicating nothing could be found.
+
+**Screen 3:** Matching Game Screen, using a function, the game selects 4 random words from a larger list of words included with the app to display as answer options. One of those words is submitted to the API to retrieve the associated definition, which is displayed on screen. The user select which word they believe matches the definition. The answer is checked using a function which flips the buttons to be disabled so that no additional selections can be made, then it checks to see if the answer matches the definition displayed. If it does, it shows that it is correct. If it does not, it shows it is incorrect and shows which word was correct. On the page, the current question number out of 5 is displayed along with the current score. The score is a global state that is passed to the Summary Screen (screen 4)
+
+**Screen 4:** Summary Screen, displays the final results of the game. It has two buttons, each with their own function. Both functions reset the game score and question numbers back to zero. One button and function take the user back to the game to play again, the other button and function take the user back to the Main Screen (screen 1)
