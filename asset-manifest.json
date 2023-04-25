@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/dictionary/static/js/main.967223ac.js",
+    "static/js/548.76a8459d.js": "/dictionary/static/js/548.76a8459d.js",
+    "static/media/FontAwesome.ttf": "/dictionary/static/media/FontAwesome.1e59d2330b4c6deb84b3.ttf",
+    "favicon.ico": "/dictionary/favicon.ico",
+    "index.html": "/dictionary/index.html",
+    "static/media/rocket.png": "/dictionary/static/media/rocket.d2f3bf41d5e4515c39a9.png",
+    "static/media/bell.png": "/dictionary/static/media/bell.cf04af27d6a651c4b904.png",
+    "favicon-32.png": "/dictionary/favicon-32.png",
+    "static/media/star.png": "/dictionary/static/media/star.69c7138684828d68fe5a.png",
+    "static/media/heart.png": "/dictionary/static/media/heart.23b5c2c0eb77d50ff1b4.png",
+    "favicon-16.png": "/dictionary/favicon-16.png",
+    "serve.json": "/dictionary/serve.json",
+    "manifest.json": "/dictionary/manifest.json",
+    "main.967223ac.js.map": "/dictionary/static/js/main.967223ac.js.map",
+    "548.76a8459d.js.map": "/dictionary/static/js/548.76a8459d.js.map"
+  },
+  "entrypoints": [
+    "static/js/548.76a8459d.js",
+    "static/js/main.967223ac.js"
+  ]
+}
